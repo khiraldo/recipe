@@ -8,8 +8,12 @@ body {
     margin: 0 auto;
 }
 
+header {
+    padding-top: 250px;
+}
+
 .street-tacos {
-    width: 414px;
+    width: 414px;    
 }
 
 .street-tacos img {
@@ -17,51 +21,113 @@ body {
     height: 100%;
 }
 
+nav {
+    width: 414px;
+    background-color: lavender;
+    position: absolute;   
+    top: 0;
+    z-index: 1; 
+    padding-bottom: 50px;         
+}
+
 nav h2 {
-    visibility: hidden;    
+    visibility: hidden; 
+    width: 1px;
+    height: 1px;
+    font-size: 1px;   
 }
 
 nav li {
-    list-style: none;
+    list-style: none;   
     
 }
 
-/* trying to get the menu but with the hamburger svg
-
-nav {
-    background-color: #F2F2F2;
-    width: 414px;    
-    position: absolute;   
+[href="#home"] svg {
+    background-color: #EB5428;
+    position: absolute;
     top: 0;
-    z-index: 1;                
+    left: 100px; 
+      
+}
+
+[href="#avatar"] svg {
+    position: absolute;
+    top: 0;
+    left: 200px;    
+    stroke: #EB5428;
 }
 
 a {
     display: block;
     text-decoration: none; 
-    padding: 5px;     
+    padding: 5px;
+    color: black;  
+    
 }
 
 ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     max-height: 0;
     transition: max-height .2s ease-out;    
 }
 
-#hamburger {
+label {
     cursor: pointer;
-    display: inline-block;
-    padding: 28px 20px;
-    position: relative;    
+    display: inline-block;    
+    position: relative;
+    user-select: none;
 }
 
-#hamburger svg {
-    display: block;
-    height: 2px;
+label svg {
+    stroke: #EB5428;
+    display: block;    
     position: relative;
     transition: background-color .2s ease-out;
-    width: 18px;
+    width: 50px;
 }
-*/
+
+label svg:before, label svg:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+label svg:before {
+    top: 5px;
+}
+
+label svg:after {
+    top: -5px;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ ul {
+    max-height: 500px;
+}
+
+input:checked ~ label svg {
+    background: transparent;
+}
+
+input:checked ~ label svg:before {
+    transform: rotate(-45deg);
+}
+
+input:checked ~ label svg:after {
+    transform: rotate(45deg);
+}
+
+input:checked ~ label:not(.steps) svg:before, input:checked ~ label:not(.steps) svg:after {
+    top: 0;
+}
+
+
