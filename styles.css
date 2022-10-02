@@ -1,0 +1,67 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body {
+    background-color: #F2F2F2;
+    width: 414px;
+    margin: 0 auto;
+}
+
+.street-tacos {
+    width: 414px;
+}
+
+.street-tacos img {
+    width: 100%;
+    height: 100%;
+}
+
+nav h2 {
+    visibility: hidden;    
+}
+
+nav li {
+    list-style: none;
+    
+}
+
+/* trying to get the menu but with the hamburger svg
+
+nav {
+    background-color: #F2F2F2;
+    width: 414px;    
+    position: absolute;   
+    top: 0;
+    z-index: 1;                
+}
+
+a {
+    display: block;
+    text-decoration: none; 
+    padding: 5px;     
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;    
+}
+
+#hamburger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;    
+}
+
+#hamburger svg {
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+}
+*/
