@@ -91,14 +91,16 @@ ul {
     transition: max-height .2s ease-out;    
 }
 
-label {
+/*Menu*/
+
+.mobile-menu label {
     cursor: pointer;
     display: inline-block;    
     position: relative;
     user-select: none;
 }
 
-label svg {
+.mobile-menu svg {
     stroke: #EB5428;
     display: block;    
     position: relative;
@@ -108,7 +110,7 @@ label svg {
 
 }
 
-label svg:before, label svg:after {
+.mobile-menu svg:before, .mobile-menu svg:after {
     background: #ffffff;
     content: '';
     display: block;
@@ -118,15 +120,15 @@ label svg:before, label svg:after {
     width: 100%;
 }
 
-label svg:before {
+.mobile-menu svg:before {
     top: 5px;
 }
 
-label svg:after {
+.mobile-menu svg:after {
     top: -5px;
 }
 
-input {
+#dropdown {
     display: none;
 }
 
@@ -134,21 +136,24 @@ input:checked ~ ul {
     max-height: 500px;
 }
 
-input:checked ~ label svg {
+input:checked ~ .mobile-menu svg {
     background: transparent;
 }
 
-input:checked ~ label svg:before {
+
+
+input:checked ~ .mobile-menu svg:before {
     transform: rotate(-45deg);
 }
 
-input:checked ~ label svg:after {
+input:checked ~ .mobile-menu svg:after {
     transform: rotate(45deg);
 }
 
-input:checked ~ label:not(.steps) svg:before, input:checked ~ label:not(.steps) svg:after {
+input:checked ~ .mobile-menu label:not(.steps) svg:before, input:checked ~ .mobile-menu label:not(.steps) svg:after {
     top: 0;
 }
+
 
 menu li {
     font-size: 20px;
