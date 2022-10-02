@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
 html {
     background-color: rgba(122, 191, 191, .5);
 }
@@ -6,6 +8,19 @@ body {
     background-color: #F2F2F2;
     width: 414px;
     margin: 0 auto;
+    font-family: Bebas Neue, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 header {
@@ -23,11 +38,11 @@ header {
 
 nav {
     width: 414px;
-    background-color: lavender;
+    background-color: white;
     position: absolute;   
     top: 0;
     z-index: 1; 
-    padding-bottom: 50px;         
+    padding-bottom: 36px;             
 }
 
 nav h2 {
@@ -46,22 +61,25 @@ nav li {
     background-color: #EB5428;
     position: absolute;
     top: 0;
-    left: 100px; 
+    left: 91px; 
+    width: 192px;
+    padding: 12px;
       
 }
 
 [href="#avatar"] svg {
     position: absolute;
-    top: 0;
-    left: 200px;    
+    top: 13px;
+    left: 344px;    
     stroke: #EB5428;
 }
 
-a {
+nav a {
     display: block;
     text-decoration: none; 
-    padding: 5px;
-    color: black;  
+    padding:20px;
+    color: black; 
+    font-size: 20px; 
     
 }
 
@@ -85,7 +103,9 @@ label svg {
     display: block;    
     position: relative;
     transition: background-color .2s ease-out;
-    width: 50px;
+    left: 19px;
+    top: 11px;
+
 }
 
 label svg:before, label svg:after {
@@ -128,6 +148,50 @@ input:checked ~ label svg:after {
 
 input:checked ~ label:not(.steps) svg:before, input:checked ~ label:not(.steps) svg:after {
     top: 0;
+}
+
+menu li {
+    font-size: 20px;
+}
+
+#social {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
+pre {    
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;    
+}
+
+#menu {
+    position: absolute;
+    top: 35px;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+    left: 21px;
+
+}
+
+#sign {
+    position: absolute;
+    top: 35px;
+    left: 329px; 
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+}
+
+ol li {    
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;    
 }
 
 
