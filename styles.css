@@ -424,6 +424,41 @@ footer p {
     background-color: #ffffff;    
 }
 
+/*MEDIUM SCREEN*/
+
+@media screen and (min-width:768px) {
+    nav ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: repeat(8, 0.5fr);
+        margin-top: 10px; 
+    }
+
+    .mobile-menu label, nav input {
+        display: none;
+    }
+
+    [href="#home"] svg {
+        position:static;
+        width: 50px;
+        top:0;
+    }
+
+    body {
+        min-width: 768px;
+    }
+
+    nav {
+        min-width: 768px;        
+    }
+
+    nav li {
+        background-color: #ffffff;
+    }
+}
+
 
 
 
