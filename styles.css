@@ -301,9 +301,9 @@ dd {
 .dishes {
     background-color: #7ABFBF;
     width: 414px;
+    height: 904px;
 }
 
-/*I can give the elements to the right of the picture a class, and the images another class, to position them*/
 .dishes-flex {
     display: flex;
     flex-direction: column;
@@ -327,8 +327,106 @@ dd {
     top: -109px;
 }
 
+.orange-fill {
+    fill: #EB5428;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.dishes-flex1 {
+    position: relative;
+    top: -65px;
+}
+
+.dishes-flex2 {
+    position: relative;
+    top: -185px;
+}
+
+.dishes-flex3 {
+    position: relative;
+    top: -294px;
+}
+
+.dishes-flex4 {
+    position: relative;
+    top: -388px;
+}
+
+.social-flex ul {    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.social-flex li {
+    list-style: none;
+    
+}
+
+.social-flex a {
+    text-decoration: none;
+    color: #EB5428;
+    position: relative;
+    top: 13px;
+    left: -9px;    
+}
+
+
+.social-flex svg {
+    position: relative;
+    top: -78px;
+    
+}
+
+
+
+#social-header {
+    visibility: hidden;
+}
+
+.connect-background {
+    background-color: #ffffff;
+    position: relative;
+    top: 46px;
+}
+
+footer {
+    background-color: #ffffff;
+    width: 414px;    
+}
+
+footer img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: -93px; 
+    left: 98px;   
+}
+
+
+footer h3 {
+    visibility: hidden;
+}
+
+footer p {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 232px;    
+}
+
+.end-background {
+    background-color: #ffffff;    
+}
 
 
 
 
+
+ 
 
