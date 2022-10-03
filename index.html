@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Street Tacos</h1>       
-        <menu class="flex1">           
+        <menu>           
             <li><a href="#save">Save</a><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
@@ -67,7 +67,7 @@
         </section>
         <section>
             <h2>Ingredients</h2>
-            <ul>
+            <ul class="ingredients">
                 <li>Flank steak</li>
                 <li>Soy Sauce</li>
                 <li>Worcestershire sauce</li>
@@ -83,38 +83,56 @@
         </section>
         <section>
             <h2>Directions</h2>
-            <ol>
+            <ol class="directions">
                 <li>Cut and mix: Cut the flank steak into one inch pieces. In a medium sized bowl add the soy sauce, Worcestershire, juice from one lime, cilantro, chili powder, cumin, and salt and pepper.</li>
                 <li>Marinate: Add the steak and let marinate in the fridge for 1-2 hours.</li>
                 <li>Cook the meat: Heat a medium sized skillet to medium high heat. Add the steak and marinade and cook for about 5-7 minutes or until no longer pink.</li>
                 <li>Add toppings: Put the steak in the center of your tortilla with desired toppings.</li>
             </ol>
         </section>
-        <section>
+        <section class="dishes">
             <h2>Need some side dishes?</h2>
-            <div>
-                <h3>Mexican Rice</h3>
-                <img src="images/mexican-rice.png" alt="Mexican yellow rice">
-                <p>Traditional recipe with a twist.</p>
-                <p>Rating: 4 of 5 Stars</p>
-            </div>
-            <div>
-                <h3>Salsa</h3>
-                <img src="images/salsa.png" alt="salsa and tortilla chips">
-                <p>Just the right amount of spice.</p>
-                <p>Rating: 5 of 5 Stars</p>
-            </div>
-            <div>
-                <h3>Guacamole</h3>
-                <img src="images/guacamole.png" alt="freshly made guacamole">
-                <p>Fresh and healthy.</p>
-                <p>Rating: 4 of 5 Stars</p>            
-            </div>
-            <div>
-                <h3>Tortillas</h3>
-                <img src="images/tortillas.png" alt="freshly made tortillas">
-                <p>Easy to make and so good. </p>
-                <p>Rating: 4 of 5 Stars</p>  
+            <div class="dishes-flex">
+                <div>
+                    <h3>Mexican Rice</h3>
+                    <img src="images/mexican-rice.png" alt="Mexican yellow rice">
+                    <p>Traditional recipe with a twist.</p>
+                    <p>Rating: 4 of 5 Stars</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3>Salsa</h3>
+                    <img src="images/salsa.png" alt="salsa and tortilla chips">
+                    <p>Just the right amount of spice.</p>
+                    <p>Rating: 5 of 5 Stars</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3>Guacamole</h3>
+                    <img src="images/guacamole.png" alt="freshly made guacamole">
+                    <p>Fresh and healthy.</p>
+                    <p>Rating: 4 of 5 Stars</p>  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg>          
+                </div>
+                <div>
+                    <h3>Tortillas</h3>
+                    <img src="images/tortillas.png" alt="freshly made tortillas">
+                    <p>Easy to make and so good. </p>
+                    <p>Rating: 4 of 5 Stars</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg>
+                </div>
             </div>
         </section>
    </main>
@@ -171,7 +189,7 @@
         <line x1="21" y1="21" x2="15" y2="15" />
         </svg>
     </button>
-   </form>>
+   </form>
    <section>
     <h2>Connect</h2>
     <ul id="social">
