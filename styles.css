@@ -427,36 +427,126 @@ footer p {
 /*MEDIUM SCREEN*/
 
 @media screen and (min-width:768px) {
-    nav ul {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: repeat(8, 0.5fr);
-        margin-top: 10px; 
+    nav {
+        min-width: 768px;
+        position: fixed;                    
     }
+
+    nav ul {        
+        overflow: visible;
+        display: grid;
+        grid-template-columns: repeat(7, 0.5fr);           
+        
+    }
+
+    #break {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+    }
+
+    #bru {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+    }
+
+    #lun {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+
+    #din {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+    }
+
+    #app {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+    }
+
+    #dess {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+    }
+
+    #bev {
+        grid-column-start: 7;
+        grid-column-end: 7;
+        grid-row-start: 2;
+    }   
+
+    #sig a {
+        position: relative;   
+        top: -15px;
+        right: -217px;             
+    } 
+
+   #sign {
+    position: absolute;
+    top: 16px;
+    left: 658px;     
+   }
+  
+
+    nav img {
+        width: 40%;
+        height: 40%;
+    }
+        
 
     .mobile-menu label, nav input {
         display: none;
     }
 
     [href="#home"] svg {
-        position:static;
+        position: static;
         width: 50px;
-        top:0;
+        top: 0px;  
+        left: 0px;    
+    } 
+
+    nav h2 {
+        display: none;
     }
 
     body {
         min-width: 768px;
-    }
-
-    nav {
-        min-width: 768px;        
-    }
+    }  
 
     nav li {
         background-color: #ffffff;
+        padding: 0%;
+    }  
+
+    nav a {
+        padding: 0%;
     }
+
+   
+
+    header {
+        margin-top: 100px;
+    }
+
+    .search-bar {    
+        position: absolute;  
+        top: 20px;
+        left: 423px; 
+                   
+    }    
+
+    #menu {
+       display: none;
+    
+    }
+    
+   
 }
 
 
