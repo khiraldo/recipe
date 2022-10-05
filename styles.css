@@ -487,6 +487,7 @@ footer p {
         right: -217px;             
     } 
 
+
    #sign {
     position: absolute;
     top: 16px;
@@ -526,7 +527,7 @@ footer p {
     }  
 
     nav a {
-        padding: 0%;        
+        padding: 0%;       
     }
 
    
@@ -673,4 +674,28 @@ footer p {
     top: -82px;
 }
 
+.end-background {
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+}
+
+/*COMMENTS*/
+
+/* this might be the issue with the sign in section in nav...FOR MEDIUM SCREEN
+[href="#avatar"] svg {
+    position: absolute;
+    top: 10px;
+    left: 34px;    
+        
+    }
+*/
+
+
+/*LARGE SCREEN*/
+@media screen and (min-width:1280px) {
+    
+}
+    
+
