@@ -540,7 +540,7 @@ footer p {
     .search-bar {    
         position: absolute;  
         top: 20px;
-        left: 423px; 
+        margin-left: 260px; 
                    
     }    
 
@@ -675,23 +675,14 @@ footer p {
     top: -82px;
 }
 
-.end-background {
+    .end-background {
     display: flex;
     flex-direction: row-reverse;
-}
-
-}
-
-/*COMMENTS*/
-
-/* this might be the issue with the sign in section in nav...FOR MEDIUM SCREEN
-[href="#avatar"] svg {
-    position: absolute;
-    top: 10px;
-    left: 34px;    
-        
     }
-*/
+
+}
+
+
 
 
 /*LARGE SCREEN*/
@@ -703,7 +694,8 @@ footer p {
 
     nav {
         min-width: 1280px;
-        position: absolute;                    
+        position: fixed;    
+        height: 55px;                
     }
 
     nav ul {        
@@ -712,14 +704,7 @@ footer p {
         grid-template-columns: repeat(11, 0.5fr);           
         
     }
-/*don't need?
-    [href="#home"] svg {
-        position: static;
-        width: 50px;
-        top: 0px;  
-        left: 0px;    
-    } 
-    */
+
 
     #break {
         grid-column-start: 3;
@@ -768,29 +753,11 @@ footer p {
    .search-bar {    
     position: absolute;  
     top: 133px;
+    margin-left: 461px;
     
-   }
-       
+   }    
 
-    /*SEARCH BAR  
-    .search-bar input {
-        width: 250px;
-        height: 40px;
-        border-color: #EB5428;              
-    }
-
-    .search-bar button {
-        border: 0px;       
-    }
-
-    .search-bar svg {
-        stroke:#ffffff;
-        background-color: #EB5428;
-        position: relative;
-        top: 16px;
-        left: -11px;
-    }
-    */
+  
 
 
 
