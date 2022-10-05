@@ -915,6 +915,92 @@ footer p {
    #ingredients-flex {
     margin-right: 50px;
    }
+
+   .dishes {
+    min-width: 1280px;
+    height: 500px;
+    position: relative;
+    top: -1036px;
+   }
+
+   .dishes-flex {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .dishes-flex img {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: -90px;
+    left: 160px;
+   }
+  
+
+   .dishes-flex4 p, .dishes-flex4 svg {
+    position: relative;
+    top: -37px;
+    left: 293px; 
+   }
+
+   .dishes-flex4 img {
+    top: -91px;
+    left: 288px; 
+   }
+
+   .dishes-flex4 h3 {
+    top: 242px;
+    left: 293px;
+   }
+
+   .dishes-flex1 p, .dishes-flex1 svg {
+    position: relative;
+    top: -37px;
+    left: 53px; 
+   }
+
+   .dishes-flex1 img {
+    top: -91px;
+    left: 45px; 
+   }
+
+   .dishes-flex1 h3 {
+    top: 242px;
+    left: 53px;
+   }
+
+   .dishes-flex3 p, .dishes-flex3 svg {
+    position: relative;
+    top: -37px;
+    left: 253px; 
+   }
+
+   .dishes-flex3 img {
+    top: -91px;
+    left: 241px; 
+   }
+
+   .dishes-flex3 h3 {
+    top: 242px;
+    left: 253px;
+   }
+
+   .dishes-flex2 p, .dishes-flex2 svg {
+    position: relative;
+    top: -37px;
+    left: 133px; 
+   }
+
+   .dishes-flex2 img {
+    top: -91px;
+    left: 122px; 
+   }
+
+   .dishes-flex2 h3 {
+    top: 242px;
+    left: 133px;
+   }
+
    
 }
     
