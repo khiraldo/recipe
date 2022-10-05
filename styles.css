@@ -755,16 +755,13 @@ footer p {
     top: 133px;
     margin-left: 461px;
     
-   }    
+   }   
 
   
-
-
-
     [href="#avatar"] svg {
         position: fixed;
         top: 2px;
-        left: 1090px;
+        margin-left: 863px;
         
     }
 
