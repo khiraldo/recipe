@@ -831,31 +831,29 @@ footer p {
 
     /*Street tacos section*/
     .street-tacos {
-        min-width: 1280px;    
+        min-width: 1084px; 
+        height: 960px;
+        display: flex;   
+        flex-direction: row;
+        position: relative;
+        top: -977px;
+        left: 203px;
     }   
 
     .street-tacos img {
-        width: 50%;
-        height: 50%;
-        position: relative;
-        top: 10px;
-        left: 330px;
-    }
+        width: 100%;
+        height: 100%;
+    }    
     
-    /*
-    .street-tacos p {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-    */
     
 
     menu {
         display: flex;
         flex-direction: column;
         width: 158px;
-        background-color: #ffffff;        
+        height: 960px;
+        background-color: #ffffff;  
+        border: 2px solid #EB5428;      
     }
 
     menu li {
@@ -876,10 +874,14 @@ footer p {
         left: 1px;
     }
 
-    #jump {
-        top: 23px;
-        left: 6px; 
+    #jump-li {
+        position: relative;
+        top: 19px;
+        left: 1px;
     }
+
+   
+   
 }
     
 
