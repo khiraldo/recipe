@@ -487,6 +487,7 @@ footer p {
         right: -217px;             
     } 
 
+    
 
    #sign {
     position: absolute;
@@ -695,7 +696,190 @@ footer p {
 
 /*LARGE SCREEN*/
 @media screen and (min-width:1280px) {
+    body {
+        min-width: 1280px;
+    }
+
+    nav {
+        min-width: 1280px;
+        position: absolute;                    
+    }
+
+    nav ul {        
+        overflow: visible;
+        display: grid;
+        grid-template-columns: repeat(11, 0.5fr);           
+        
+    }
+/*don't need?
+    [href="#home"] svg {
+        position: static;
+        width: 50px;
+        top: 0px;  
+        left: 0px;    
+    } 
+    */
+
+    #break {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        
+    }
+
+    #bru {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+    }
+
+    #lun {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+    }
+
+    #din {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 1;
+    }
+
+    #app {
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 1;
+    }
+
+    #dess {
+        grid-column-start: 8;
+        grid-column-end: 9;
+        grid-row-start: 1;
+    }
+
+    #bev {
+        grid-column-start: 9;
+        grid-column-end: 10;
+        grid-row-start: 1;
+    }   
+   
+
+   .search-bar {    
+    position: absolute;  
+    top: 133px;
     
+   }
+       
+
+    /*SEARCH BAR  
+    .search-bar input {
+        width: 250px;
+        height: 40px;
+        border-color: #EB5428;              
+    }
+
+    .search-bar button {
+        border: 0px;       
+    }
+
+    .search-bar svg {
+        stroke:#ffffff;
+        background-color: #EB5428;
+        position: relative;
+        top: 16px;
+        left: -11px;
+    }
+    */
+
+
+
+    [href="#avatar"] svg {
+        position: fixed;
+        top: 2px;
+        left: 1090px;
+        
+    }
+
+    #sig {
+        position: fixed;
+    }
+
+  #sig a {
+    position: relative;
+    top: 26px;
+    left: 1076px;         
+    } 
+
+
+   #sign {
+    position: relative;
+    top: 26px;
+    left: 1076px;  
+   }
+
+   
+
+    header {
+        margin-top: 35px;
+        
+    }
+
+   
+    h1 {
+        text-align: center;
+    }
+
+    /*Street tacos section*/
+    .street-tacos {
+        min-width: 1280px;    
+    }   
+
+    .street-tacos img {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        top: 10px;
+        left: 330px;
+    }
+    
+    /*
+    .street-tacos p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    */
+    
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        width: 158px;
+        background-color: #ffffff;        
+    }
+
+    menu li {
+        padding: 30px;
+          
+    }
+
+    menu svg {
+        position: relative;
+        top: -4px;
+        left: -32px;
+    }
+
+   
+    #jump-svg {
+        position: relative;
+        top: -51px;
+        left: 1px;
+    }
+
+    #jump {
+        top: 23px;
+        left: 6px; 
+    }
 }
     
 
