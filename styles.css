@@ -880,7 +880,41 @@ footer p {
         left: 1px;
     }
 
+   .details-box {
+    background-color: black;
+    color:#7ABFBF;
+    position: relative;
+    top: -1002px;    
+   }
+
+   .details-flex {
+    flex-direction: row;
+    min-width: 1280px;
+    position: relative;
+    top:-30px;
+    left:80px;
+   }
+
+   dd {
+    position: relative;
+    top: 27px;
+    left: -107px;
+   }
+
+   .ingredients-container {
+    min-width: 1280px;   
+    position: relative;
+    top:-1002px;
+   }
    
+   #directions-flex {
+    width: 693px;
+    margin-left: 126px;
+   }
+
+   #ingredients-flex {
+    margin-right: 50px;
+   }
    
 }
     
