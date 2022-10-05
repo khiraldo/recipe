@@ -698,6 +698,7 @@ footer p {
 @media screen and (min-width:1280px) {
     body {
         min-width: 1280px;
+        height: 2500px;
     }
 
     nav {
@@ -999,6 +1000,32 @@ footer p {
    .dishes-flex2 h3 {
     top: 242px;
     left: 133px;
+   }
+
+   .end-background {
+    position: relative;
+    top: -1035px;
+   
+   }
+
+   footer img {
+    top: -122px;
+    left: -401px;
+   }
+
+   footer p {
+    top: -25px;
+    left: -300px;
+   }
+
+   #social svg {
+    top: -96px;
+    left: -58px;
+   }
+
+   #social a {
+    top: -62px;
+    left: -4px;
    }
 
    
